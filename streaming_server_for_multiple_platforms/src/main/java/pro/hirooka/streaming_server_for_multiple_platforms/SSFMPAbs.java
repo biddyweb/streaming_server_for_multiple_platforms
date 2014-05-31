@@ -59,7 +59,7 @@ public class SSFMPAbs extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse res){
 		
 		PropertiesLoader prop = new PropertiesLoader();
-        prop.setProperties("ssfmd.properties");
+        prop.setProperties("ssfmp.properties");
         
 		// シングルトンクラスをグローバル変数的に使用する．
 		SingletonForSSFMP info = SingletonForSSFMP.getInstance();

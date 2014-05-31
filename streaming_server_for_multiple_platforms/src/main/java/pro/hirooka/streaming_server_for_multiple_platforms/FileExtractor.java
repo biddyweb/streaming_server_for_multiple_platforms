@@ -74,7 +74,7 @@ public class FileExtractor extends HttpServlet{
 		log.debug(MARKER_FileExtractor, "{} [flag] {}", Thread.currentThread().getStackTrace()[1].getMethodName(), flag);
 		
 		PropertiesLoader prop = new PropertiesLoader();
-	    prop.setProperties("ssfmd.properties");
+	    prop.setProperties("ssfmp.properties");
 		
 	    switch(flag){
 		case 0:

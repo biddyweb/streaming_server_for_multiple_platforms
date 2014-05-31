@@ -65,7 +65,7 @@ public class SSFMP extends HttpServlet {
 		// プロパティファイルから定数情報の取得
 		// TODO エラー処理
 		PropertiesLoader prop = new PropertiesLoader();
-		prop.setProperties("ssfmd.properties");
+		prop.setProperties("ssfmp.properties");
 
 		int MPEG2_TS_PACKET_LENGTH = Integer.parseInt(prop.getValue("MPEG2_TS_PACKET_LENGTH"));
 		double DURATION = Double.parseDouble(prop.getValue("DURATION"));

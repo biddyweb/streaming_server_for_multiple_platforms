@@ -56,7 +56,7 @@ public class PropertiesLoader {
 			//prop.load(this.getClass().getResourceAsStream(str));
 			//prop.load(this.getClass().getResourceAsStream(FILE_SEPARATOR + str));
 			//InputStream is = new BufferedInputStream(new FileInputStream(System.getenv("HOME") + FILE_SEPARATOR + "ssfmd.properties"));
-			prop.load(new BufferedInputStream(new FileInputStream(System.getenv("HOME") + FILE_SEPARATOR + "ssfmd.properties")));
+			prop.load(new BufferedInputStream(new FileInputStream(System.getenv("HOME") + FILE_SEPARATOR + str)));
 			return true;
 		}catch(NullPointerException | IOException ex){
 			return false;

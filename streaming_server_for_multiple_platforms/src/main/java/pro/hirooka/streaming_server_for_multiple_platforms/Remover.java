@@ -83,7 +83,7 @@ public class Remover{
 			}
 			
 			PropertiesLoader prop = new PropertiesLoader();
-			prop.setProperties("ssfmd.properties");
+			prop.setProperties("ssfmp.properties");
 			
 			// TEMP_PATH の削除
 			FileUtils.cleanDirectory(new File(prop.getValue("PATH_OF_TEMP")));

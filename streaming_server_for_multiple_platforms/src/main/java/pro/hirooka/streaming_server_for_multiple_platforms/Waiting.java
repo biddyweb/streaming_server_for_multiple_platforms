@@ -107,9 +107,7 @@ public class Waiting extends HttpServlet{
 //					"</form>" +
 //					"<a href=\"./cancel\">cancel</a>" +
 
-					
-					//"<a href=\"/ss/cancel?foo=bar\">cancel</a>" +
-					"<a href=\"/ss/cancel?foo=" + random + "\">cancel</a>" +
+					"<a href=\"cancel?foo=" + random + "\">cancel</a>" +
 					
 //					"<form action=\"./cancel\">" +
 //					"<div id=\"button\">" +
